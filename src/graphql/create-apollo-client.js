@@ -1,6 +1,4 @@
-import { ApolloClient } from 'apollo-client';
-import { HttpLink } from 'apollo-link-http';
-import { InMemoryCache } from 'apollo-cache-inmemory';
+import { ApolloClient, HttpLink, InMemoryCache } from '@apollo/client/core';
 import getApolloClientConfig from './get-apollo-client-config';
 import {
   apolloClientBeforeCreate,
