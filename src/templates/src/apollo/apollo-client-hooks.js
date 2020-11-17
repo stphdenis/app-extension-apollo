@@ -1,4 +1,10 @@
-export function apolloClientBeforeCreate (/* { apolloClientConfigObj, app, router, store, ssrContext, urlPath, redirect } */) {
+export function apolloClientBeforeCreate (
+  /** @type {{
+   *   apolloClientConfigObj:{link:import('@apollo/client/core').ApolloLink},
+   * }}*/ {
+    apolloClientConfigObj/*, app, router, store, ssrContext, urlPath, redirect*/
+  }
+) {
   // if needed you can modify here the config object used for apollo client
   // instantiation
 }
